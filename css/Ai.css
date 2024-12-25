@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+
+
+
+
+/* Voice Assistance section */
+
+#Voice_Assitence_Button
+{
+    width: 10%;
+    /* height: 100%; */
+    background-color: transparent;
+    border: none;
+    position: fixed; 
+    left: 45%;
+     top: 40%;
+     /* bottom: 10px; */
+
+}
+
+#Voice_Assitence_Button img 
+{
+    cursor: pointer;
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+#animated_img {
+
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+
+
+/* Answer  */
+
+#Answer
+{
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+    /* justify-content: space-around; */
+    /* flex-direction: column; */
+    /* border: 1px solid transparent; */
+    border: 1px solid rgb(41, 149, 200);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    border-radius: 30px;
+    position: relative;
+    top: 237px;
+    left: 20%;
+    display: none;
+    
+}
